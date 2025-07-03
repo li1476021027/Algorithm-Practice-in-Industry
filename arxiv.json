@@ -50097,5 +50097,12 @@
         "pub_date": "2025-06-30",
         "summary": "Congenital heart disease (CHD) presents complex, lifelong challenges often underrepresented in traditional clinical metrics. While unstructured narratives offer rich insights into patient and caregiver experiences, manual thematic analysis (TA) remains labor-intensive and unscalable. We propose a fully automated large language model (LLM) pipeline that performs end-to-end TA on clinical narratives, which eliminates the need for manual coding or full transcript review. Our system employs a novel multi-agent framework, where specialized LLM agents assume roles to enhance theme quality and alignment with human analysis. To further improve thematic relevance, we optionally integrate reinforcement learning from human feedback (RLHF). This supports scalable, patient-centered analysis of large qualitative datasets and allows LLMs to be fine-tuned for specific clinical contexts.",
         "translated": ""
+    },
+    {
+        "title": "Intertextual Parallel Detection in Biblical Hebrew: A Transformer-Based\n  Benchmark",
+        "url": "http://arxiv.org/abs/2506.24117v2",
+        "pub_date": "2025-06-30",
+        "summary": "Identifying parallel passages in biblical Hebrew (BH) is central to biblical scholarship for understanding intertextual relationships. Traditional methods rely on manual comparison, a labor-intensive process prone to human error. This study evaluates the potential of pre-trained transformer-based language models, including E5, AlephBERT, MPNet, and LaBSE, for detecting textual parallels in the Hebrew Bible. Focusing on known parallels between Samuel/Kings and Chronicles, I assessed each model's capability to generate word embeddings distinguishing parallel from non-parallel passages. Using cosine similarity and Wasserstein Distance measures, I found that E5 and AlephBERT show promise; E5 excels in parallel detection, while AlephBERT demonstrates stronger non-parallel differentiation. These findings indicate that pre-trained models can enhance the efficiency and accuracy of detecting intertextual parallels in ancient texts, suggesting broader applications for ancient language studies.",
+        "translated": ""
     }
 ]
