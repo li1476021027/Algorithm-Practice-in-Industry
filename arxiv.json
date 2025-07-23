@@ -51434,5 +51434,40 @@
         "pub_date": "2025-07-21",
         "summary": "We present Supernova, a 650M-parameter decoder-only transformer that demonstrates how careful architectural design and tokenization innovation can achieve the performance of larger models while maintaining computational efficiency. Our architecture combines Rotary Positional Embeddings (RoPE), Grouped Query Attention (GQA) with a 3:1 compression ratio, RMSNorm for computational efficiency, and SwiGLU activation functions. A critical innovation is our custom 128,000-vocabulary byte-level BPE tokenizer, which achieves state-of-the-art compression performance. Through detailed analysis, we show that Supernova achieves 90% of the performance of 1B-parameter models while using 53% fewer parameters and requiring only 100B training tokens--an order of magnitude less than competing models. Our findings challenge the prevailing scaling paradigm, demonstrating that architectural efficiency and tokenization quality can compensate for reduced parameter counts.",
         "translated": ""
+    },
+    {
+        "title": "RAVine: Reality-Aligned Evaluation for Agentic Search",
+        "url": "http://arxiv.org/abs/2507.16725v1",
+        "pub_date": "2025-07-22",
+        "summary": "Agentic search, as a more autonomous and adaptive paradigm of retrieval augmentation, is driving the evolution of intelligent search systems. However, existing evaluation frameworks fail to align well with the goals of agentic search. First, the complex queries commonly used in current benchmarks often deviate from realistic user search scenarios. Second, prior approaches tend to introduce noise when extracting ground truth for end-to-end evaluations, leading to distorted assessments at a fine-grained level. Third, most current frameworks focus solely on the quality of final answers, neglecting the evaluation of the iterative process inherent to agentic search. To address these limitations, we propose RAVine -- a Reality-Aligned eValuation framework for agentic LLMs with search. RAVine targets multi-point queries and long-form answers that better reflect user intents, and introduces an attributable ground truth construction strategy to enhance the accuracy of fine-grained evaluation. Moreover, RAVine examines model's interaction with search tools throughout the iterative process, and accounts for factors of efficiency. We benchmark a series of models using RAVine and derive several insights, which we hope will contribute to advancing the development of agentic search systems. The code and datasets are available at https://github.com/SwordFaith/RAVine.",
+        "translated": ""
+    },
+    {
+        "title": "Biases in LLM-Generated Musical Taste Profiles for Recommendation",
+        "url": "http://arxiv.org/abs/2507.16708v1",
+        "pub_date": "2025-07-22",
+        "summary": "One particularly promising use case of Large Language Models (LLMs) for recommendation is the automatic generation of Natural Language (NL) user taste profiles from consumption data. These profiles offer interpretable and editable alternatives to opaque collaborative filtering representations, enabling greater transparency and user control. However, it remains unclear whether users consider these profiles to be an accurate representation of their taste, which is crucial for trust and usability. Moreover, because LLMs inherit societal and data-driven biases, profile quality may systematically vary across user and item characteristics. In this paper, we study this issue in the context of music streaming, where personalization is challenged by a large and culturally diverse catalog. We conduct a user study in which participants rate NL profiles generated from their own listening histories. We analyze whether identification with the profiles is biased by user attributes (e.g., mainstreamness, taste diversity) and item features (e.g., genre, country of origin). We also compare these patterns to those observed when using the profiles in a downstream recommendation task. Our findings highlight both the potential and limitations of scrutable, LLM-based profiling in personalized systems.",
+        "translated": ""
+    },
+    {
+        "title": "Generating Search Explanations using Large Language Models",
+        "url": "http://arxiv.org/abs/2507.16692v1",
+        "pub_date": "2025-07-22",
+        "summary": "Aspect-oriented explanations in search results are typically concise text snippets placed alongside retrieved documents to serve as explanations that assist users in efficiently locating relevant information. While Large Language Models (LLMs) have demonstrated exceptional performance for a range of problems, their potential to generate explanations for search results has not been explored. This study addresses that gap by leveraging both encoder-decoder and decoder-only LLMs to generate explanations for search results. The explanations generated are consistently more accurate and plausible explanations than those produced by a range of baseline models.",
+        "translated": ""
+    },
+    {
+        "title": "Agentic RAG with Knowledge Graphs for Complex Multi-Hop Reasoning in\n  Real-World Applications",
+        "url": "http://arxiv.org/abs/2507.16507v1",
+        "pub_date": "2025-07-22",
+        "summary": "Conventional Retrieval-Augmented Generation (RAG) systems enhance Large Language Models (LLMs) but often fall short on complex queries, delivering limited, extractive answers and struggling with multiple targeted retrievals or navigating intricate entity relationships. This is a critical gap in knowledge-intensive domains. We introduce INRAExplorer, an agentic RAG system for exploring the scientific data of INRAE (France's National Research Institute for Agriculture, Food and Environment). INRAExplorer employs an LLM-based agent with a multi-tool architecture to dynamically engage a rich knowledge base, through a comprehensive knowledge graph derived from open access INRAE publications. This design empowers INRAExplorer to conduct iterative, targeted queries, retrieve exhaustive datasets (e.g., all publications by an author), perform multi-hop reasoning, and deliver structured, comprehensive answers. INRAExplorer serves as a concrete illustration of enhancing knowledge interaction in specialized fields.",
+        "translated": ""
+    },
+    {
+        "title": "Enhancing patent retrieval using automated patent summarization",
+        "url": "http://arxiv.org/abs/2507.16371v1",
+        "pub_date": "2025-07-22",
+        "summary": "Effective query formulation is a key challenge in long-document Information Retrieval (IR). This challenge is particularly acute in domain-specific contexts like patent retrieval, where documents are lengthy, linguistically complex, and encompass multiple interrelated technical topics. In this work, we present the application of recent extractive and abstractive summarization methods for generating concise, purpose-specific summaries of patent documents. We further assess the utility of these automatically generated summaries as surrogate queries across three benchmark patent datasets and compare their retrieval performance against conventional approaches that use entire patent sections. Experimental results show that summarization-based queries significantly improve prior-art retrieval effectiveness, highlighting their potential as an efficient alternative to traditional query formulation techniques.",
+        "translated": ""
     }
 ]
