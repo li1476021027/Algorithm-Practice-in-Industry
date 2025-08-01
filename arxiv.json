@@ -52078,5 +52078,61 @@
         "pub_date": "2025-07-30",
         "summary": "Understanding and solving complex reasoning tasks is vital for addressing the information needs of a user. Although dense neural models learn contextualised embeddings, they still underperform on queries containing negation. To understand this phenomenon, we study negation in both traditional neural information retrieval and LLM-based models. We (1) introduce a taxonomy of negation that derives from philosophical, linguistic, and logical definitions; (2) generate two benchmark datasets that can be used to evaluate the performance of neural information retrieval models and to fine-tune models for a more robust performance on negation; and (3) propose a logic-based classification mechanism that can be used to analyze the performance of retrieval models on existing datasets. Our taxonomy produces a balanced data distribution over negation types, providing a better training setup that leads to faster convergence on the NevIR dataset. Moreover, we propose a classification schema that reveals the coverage of negation types in existing datasets, offering insights into the factors that might affect the generalization of fine-tuned models on negation.",
         "translated": ""
+    },
+    {
+        "title": "Where to show Demos in Your Prompt: A Positional Bias of In-Context\n  Learning",
+        "url": "http://arxiv.org/abs/2507.22887v1",
+        "pub_date": "2025-07-30",
+        "summary": "In-context learning (ICL) is a critical emerging capability of large language models (LLMs), enabling few-shot learning during inference by including a few demonstrations (demos) in the prompt. However, it has been found that ICL's performance can be sensitive to the choices of demos and their order. This paper investigates an unexplored new positional bias of ICL for the first time: we observe that the predictions and accuracy can drift drastically when the positions of demos, the system prompt, and the user message in LLM input are varied. We refer to this bias as DEMOS' POSITION IN PROMPT (DPP) bias. We design a systematic evaluation pipeline to study this type of positional bias across classification, question answering, summarization, and reasoning tasks. We introduce two metrics, ACCURACY-CHANGE and PREDICTION-CHANGE, to quantify net gains and output volatility induced by changes in the demos' position. Extensive experiments on ten LLMs from four open-source model families (QWEN, LLAMA3, MISTRAL, COHERE) verify that the bias significantly affects their accuracy and predictions: placing demos at the start of the prompt yields the most stable and accurate outputs with gains of up to +6 points. In contrast, placing demos at the end of the user message flips over 30\\% of predictions without improving correctness on QA tasks. Smaller models are most affected by this sensitivity, though even large models remain marginally affected on complex tasks.",
+        "translated": ""
+    },
+    {
+        "title": "The Incomplete Bridge: How AI Research (Mis)Engages with Psychology",
+        "url": "http://arxiv.org/abs/2507.22847v1",
+        "pub_date": "2025-07-30",
+        "summary": "Social sciences have accumulated a rich body of theories and methodologies for investigating the human mind and behaviors, while offering valuable insights into the design and understanding of Artificial Intelligence (AI) systems. Focusing on psychology as a prominent case, this study explores the interdisciplinary synergy between AI and the field by analyzing 1,006 LLM-related papers published in premier AI venues between 2023 and 2025, along with the 2,544 psychology publications they cite. Through our analysis, we identify key patterns of interdisciplinary integration, locate the psychology domains most frequently referenced, and highlight areas that remain underexplored. We further examine how psychology theories/frameworks are operationalized and interpreted, identify common types of misapplication, and offer guidance for more effective incorporation. Our work provides a comprehensive map of interdisciplinary engagement between AI and psychology, thereby facilitating deeper collaboration and advancing AI systems.",
+        "translated": ""
+    },
+    {
+        "title": "Beyond Natural Language Plans: Structure-Aware Planning for\n  Query-Focused Table Summarization",
+        "url": "http://arxiv.org/abs/2507.22829v1",
+        "pub_date": "2025-07-30",
+        "summary": "Query-focused table summarization requires complex reasoning, often approached through step-by-step natural language (NL) plans. However, NL plans are inherently ambiguous and lack structure, limiting their conversion into executable programs like SQL and hindering scalability, especially for multi-table tasks. To address this, we propose a paradigm shift to structured representations. We introduce a new structured plan, TaSoF, inspired by formalism in traditional multi-agent systems, and a framework, SPaGe, that formalizes the reasoning process in three phases: 1) Structured Planning to generate TaSoF from a query, 2) Graph-based Execution to convert plan steps into SQL and model dependencies via a directed cyclic graph for parallel execution, and 3) Summary Generation to produce query-focused summaries. Our method explicitly captures complex dependencies and improves reliability. Experiments on three public benchmarks show that SPaGe consistently outperforms prior models in both single- and multi-table settings, demonstrating the advantages of structured representations for robust and scalable summarization.",
+        "translated": ""
+    },
+    {
+        "title": "DBLPLink 2.0 -- An Entity Linker for the DBLP Scholarly Knowledge Graph",
+        "url": "http://arxiv.org/abs/2507.22811v1",
+        "pub_date": "2025-07-30",
+        "summary": "In this work we present an entity linker for DBLP's 2025 version of RDF-based Knowledge Graph. Compared to the 2022 version, DBLP now considers publication venues as a new entity type called dblp:Stream. In the earlier version of DBLPLink, we trained KG-embeddings and re-rankers on a dataset to produce entity linkings. In contrast, in this work, we develop a zero-shot entity linker using LLMs using a novel method, where we re-rank candidate entities based on the log-probabilities of the \"yes\" token output at the penultimate layer of the LLM.",
+        "translated": ""
+    },
+    {
+        "title": "MASCA: LLM based-Multi Agents System for Credit Assessment",
+        "url": "http://arxiv.org/abs/2507.22758v1",
+        "pub_date": "2025-07-30",
+        "summary": "Recent advancements in financial problem-solving have leveraged LLMs and agent-based systems, with a primary focus on trading and financial modeling. However, credit assessment remains an underexplored challenge, traditionally dependent on rule-based methods and statistical models. In this paper, we introduce MASCA, an LLM-driven multi-agent system designed to enhance credit evaluation by mirroring real-world decision-making processes. The framework employs a layered architecture where specialized LLM-based agents collaboratively tackle sub-tasks. Additionally, we integrate contrastive learning for risk and reward assessment to optimize decision-making. We further present a signaling game theory perspective on hierarchical multi-agent systems, offering theoretical insights into their structure and interactions. Our paper also includes a detailed bias analysis in credit assessment, addressing fairness concerns. Experimental results demonstrate that MASCA outperforms baseline approaches, highlighting the effectiveness of hierarchical LLM-based multi-agent systems in financial applications, particularly in credit scoring.",
+        "translated": ""
+    },
+    {
+        "title": "Opportunities and Challenges of LLMs in Education: An NLP Perspective",
+        "url": "http://arxiv.org/abs/2507.22753v1",
+        "pub_date": "2025-07-30",
+        "summary": "Interest in the role of large language models (LLMs) in education is increasing, considering the new opportunities they offer for teaching, learning, and assessment. In this paper, we examine the impact of LLMs on educational NLP in the context of two main application scenarios: {\\em assistance} and {\\em assessment}, grounding them along the four dimensions -- reading, writing, speaking, and tutoring. We then present the new directions enabled by LLMs, and the key challenges to address. We envision that this holistic overview would be useful for NLP researchers and practitioners interested in exploring the role of LLMs in developing language-focused and NLP-enabled educational applications of the future.",
+        "translated": ""
+    },
+    {
+        "title": "CUS-QA: Local-Knowledge-Oriented Open-Ended Question Answering Dataset",
+        "url": "http://arxiv.org/abs/2507.22752v1",
+        "pub_date": "2025-07-30",
+        "summary": "We introduce a benchmark for open-ended regional question answering that encompasses both textual and visual modalities. We also provide strong baselines using state-of-the-art large language models (LLMs). Our dataset consists of manually curated questions and answers grounded in Wikipedia, created by native speakers from Czechia, Slovakia, and Ukraine, with accompanying English translations. It includes both purely textual questions and those requiring visual understanding. As a baseline, we evaluate state-of-the-art LLMs through prompting and complement this with human judgments of answer correctness. Using these human evaluations, we analyze the reliability of existing automatic evaluation metrics. Our baseline results highlight a significant gap in regional knowledge among current LLMs. Moreover, apart from LLM-based evaluation, there is minimal correlation between automated metrics and human judgment. We release this dataset as a resource to (1) assess regional knowledge in LLMs, (2) study cross-lingual generation consistency in a challenging setting, and (3) advance the development of evaluation metrics for open-ended question answering.",
+        "translated": ""
+    },
+    {
+        "title": "Next Tokens Denoising for Speech Synthesis",
+        "url": "http://arxiv.org/abs/2507.22746v1",
+        "pub_date": "2025-07-30",
+        "summary": "While diffusion and autoregressive (AR) models have significantly advanced generative modeling, they each present distinct limitations. AR models, which rely on causal attention, cannot exploit future context and suffer from slow generation speeds. Conversely, diffusion models struggle with key-value (KV) caching. To overcome these challenges, we introduce Dragon-FM, a novel text-to-speech (TTS) design that unifies AR and flow-matching. This model processes 48 kHz audio codec tokens in chunks at a compact 12.5 tokens per second rate. This design enables AR modeling across chunks, ensuring global coherence, while parallel flow-matching within chunks facilitates fast iterative denoising. Consequently, the proposed model can utilize KV-cache across chunks and incorporate future context within each chunk. Furthermore, it bridges continuous and discrete feature modeling, demonstrating that continuous AR flow-matching can predict discrete tokens with finite scalar quantizers. This efficient codec and fast chunk-autoregressive architecture also makes the proposed model particularly effective for generating extended content. Experiment for demos of our work} on podcast datasets demonstrate its capability to efficiently generate high-quality zero-shot podcasts.",
+        "translated": ""
     }
 ]
