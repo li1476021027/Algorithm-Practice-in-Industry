@@ -52239,5 +52239,40 @@
         "pub_date": "2025-07-31",
         "summary": "Differential Transformer has recently been proposed to improve performance in Transformer models by canceling out noise through a denoiser attention mechanism. In this work, we introduce DiffLoRA, a parameter-efficient adaptation of the differential attention mechanism, with low-rank adapters on both positive and negative attention terms. This approach retains the efficiency of LoRA while aiming to benefit from the performance gains of differential attention. We evaluate DiffLoRA across a broad range of NLP tasks, including general benchmarks, many-shot in-context learning, RAG, and long-context tests. We observe that, although DiffLoRA falls short of other parameter-efficient fine-tuning methods in most evaluation tasks, it shows interesting results in certain domains (+11 pts on LoRA for HumanEval). We analyze the attention patterns post-finetuning to identify the reasons for this behavior.",
         "translated": ""
+    },
+    {
+        "title": "Harnessing the Power of Interleaving and Counterfactual Evaluation for\n  Airbnb Search Ranking",
+        "url": "http://arxiv.org/abs/2508.00751v1",
+        "pub_date": "2025-08-01",
+        "summary": "Evaluation plays a crucial role in the development of ranking algorithms on search and recommender systems. It enables online platforms to create user-friendly features that drive commercial success in a steady and effective manner. The online environment is particularly conducive to applying causal inference techniques, such as randomized controlled experiments (known as A/B test), which are often more challenging to implement in fields like medicine and public policy. However, businesses face unique challenges when it comes to effective A/B test. Specifically, achieving sufficient statistical power for conversion-based metrics can be time-consuming, especially for significant purchases like booking accommodations. While offline evaluations are quicker and more cost-effective, they often lack accuracy and are inadequate for selecting candidates for A/B test. To address these challenges, we developed interleaving and counterfactual evaluation methods to facilitate rapid online assessments for identifying the most promising candidates for A/B tests. Our approach not only increased the sensitivity of experiments by a factor of up to 100 (depending on the approach and metrics) compared to traditional A/B testing but also streamlined the experimental process. The practical insights gained from usage in production can also benefit organizations with similar interests.",
+        "translated": ""
+    },
+    {
+        "title": "Experimental Evaluation of Dynamic Topic Modeling Algorithms",
+        "url": "http://arxiv.org/abs/2508.00710v1",
+        "pub_date": "2025-08-01",
+        "summary": "The amount of text generated daily on social media is gigantic and analyzing this text is useful for many purposes. To understand what lies beneath a huge amount of text, we need dependable and effective computing techniques from self-powered topic models. Nevertheless, there are currently relatively few thorough quantitative comparisons between these models. In this study, we compare these models and propose an assessment metric that documents how the topics change in time.",
+        "translated": ""
+    },
+    {
+        "title": "NyayaRAG: Realistic Legal Judgment Prediction with RAG under the Indian\n  Common Law System",
+        "url": "http://arxiv.org/abs/2508.00709v1",
+        "pub_date": "2025-08-01",
+        "summary": "Legal Judgment Prediction (LJP) has emerged as a key area in AI for law, aiming to automate judicial outcome forecasting and enhance interpretability in legal reasoning. While previous approaches in the Indian context have relied on internal case content such as facts, issues, and reasoning, they often overlook a core element of common law systems, which is reliance on statutory provisions and judicial precedents. In this work, we propose NyayaRAG, a Retrieval-Augmented Generation (RAG) framework that simulates realistic courtroom scenarios by providing models with factual case descriptions, relevant legal statutes, and semantically retrieved prior cases. NyayaRAG evaluates the effectiveness of these combined inputs in predicting court decisions and generating legal explanations using a domain-specific pipeline tailored to the Indian legal system. We assess performance across various input configurations using both standard lexical and semantic metrics as well as LLM-based evaluators such as G-Eval. Our results show that augmenting factual inputs with structured legal knowledge significantly improves both predictive accuracy and explanation quality.",
+        "translated": ""
+    },
+    {
+        "title": "Segment First, Retrieve Better: Realistic Legal Search via Rhetorical\n  Role-Based Queries",
+        "url": "http://arxiv.org/abs/2508.00679v1",
+        "pub_date": "2025-08-01",
+        "summary": "Legal precedent retrieval is a cornerstone of the common law system, governed by the principle of stare decisis, which demands consistency in judicial decisions. However, the growing complexity and volume of legal documents challenge traditional retrieval methods. TraceRetriever mirrors real-world legal search by operating with limited case information, extracting only rhetorically significant segments instead of requiring complete documents. Our pipeline integrates BM25, Vector Database, and Cross-Encoder models, combining initial results through Reciprocal Rank Fusion before final re-ranking. Rhetorical annotations are generated using a Hierarchical BiLSTM CRF classifier trained on Indian judgments. Evaluated on IL-PCR and COLIEE 2025 datasets, TraceRetriever addresses growing document volume challenges while aligning with practical search constraints, reliable and scalable foundation for precedent retrieval enhancing legal research when only partial case knowledge is available.",
+        "translated": ""
+    },
+    {
+        "title": "Context-based Motion Retrieval using Open Vocabulary Methods for\n  Autonomous Driving",
+        "url": "http://arxiv.org/abs/2508.00589v1",
+        "pub_date": "2025-08-01",
+        "summary": "Autonomous driving systems must operate reliably in safety-critical scenarios, particularly those involving unusual or complex behavior by Vulnerable Road Users (VRUs). Identifying these edge cases in driving datasets is essential for robust evaluation and generalization, but retrieving such rare human behavior scenarios within the long tail of large-scale datasets is challenging. To support targeted evaluation of autonomous driving systems in diverse, human-centered scenarios, we propose a novel context-aware motion retrieval framework. Our method combines Skinned Multi-Person Linear (SMPL)-based motion sequences and corresponding video frames before encoding them into a shared multimodal embedding space aligned with natural language. Our approach enables the scalable retrieval of human behavior and their context through text queries. This work also introduces our dataset WayMoCo, an extension of the Waymo Open Dataset. It contains automatically labeled motion and scene context descriptions derived from generated pseudo-ground-truth SMPL sequences and corresponding image data. Our approach outperforms state-of-the-art models by up to 27.5% accuracy in motion-context retrieval, when evaluated on the WayMoCo dataset.",
+        "translated": ""
     }
 ]
