@@ -15,7 +15,7 @@ jobs:
     env:
       SERVERCHAN_API_KEY: ${{ secrets.SERVERCHAN_API_KEY }}
       CAIYUN_TOKEN: ${{ secrets.CAIYUN_TOKEN }}
-      QUERY: '"embodied agent" OR all:"embodied AI" OR all:"vision-language-action" OR all:"robot foundation model" OR all:"language-conditioned robot"'
+      QUERY: "cs.RO"
       LIMITS: 10
       FEISHU_URL: ${{ secrets.FEISHU_URL }}
       DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
